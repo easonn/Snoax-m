@@ -14,8 +14,8 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableEurekaClient
 @ComponentScan({"controller","service"})
-@EnableHystrix
 @EnableHystrixDashboard
+@EnableHystrix
 public class EurekaRibbonClientApplication {
     @Bean
     @LoadBalanced
