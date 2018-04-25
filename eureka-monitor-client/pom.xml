@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.eason</groupId>
-    <artifactId>eureka-client1</artifactId>
+    <artifactId>eureka-monitor-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>eureka-client1</name>
-    <description>Demo project for Spring Boot</description>
+    <name>eureka-monitor-client</name>
+    <description>Demo project for Spring Boot Turbine</description>
 
     <parent>
         <groupId>org.eason</groupId>
@@ -22,12 +22,16 @@
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-netflix-turbine</artifactId>
         </dependency>
-        <!--必须引入-->
+
+
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+
     </dependencies>
+
 </project>
