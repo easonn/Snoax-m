@@ -1,6 +1,6 @@
 # Snoax-m
-- SpringBoot 2.0
-- Spring Cloud Finchley.M8
+- SpringBoot 2.0.1.RELEASE
+- Spring Cloud Finchley.SR1
 
 Eureka Server : http://localhost:8761/
 

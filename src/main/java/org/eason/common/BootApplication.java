@@ -1,12 +1,12 @@
-package org.eason.chapter52;
+package org.eason.common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Chapter52Application {
+public class BootApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Chapter52Application.class, args);
+        SpringApplication.run(BootApplication.class, args);
     }
 }
